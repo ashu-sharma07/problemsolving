@@ -6,11 +6,11 @@ int main(){
     i = 1;
     while(i<=n){
         j = 1;
-        while(j<=n){
-            cout << j;
+        while(j<=i){
+            cout<<j;
             j++;
         }
-        cout <<endl;
+        cout<<endl;
         i++;
     }
     return 0;
