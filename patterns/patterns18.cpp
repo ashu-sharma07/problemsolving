@@ -13,12 +13,14 @@ int main(){
             s++;
         }
         while (j<=i)
-        {
-          cout<<j;
+        { 
+          char chr = 65+j-1;
+          cout<<'*';
           j++;
         }
         while(e>0){
-            cout<<e;
+            char chr = 65+e-1;
+            cout<<'#';
             e--;
         }
         cout<<endl;
